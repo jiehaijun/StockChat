@@ -14,6 +14,8 @@
 		64DB75D21B8F0CA50043E4F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64DB75D11B8F0CA50043E4F2 /* Images.xcassets */; };
 		64DB75D51B8F0CA50043E4F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64DB75D31B8F0CA50043E4F2 /* LaunchScreen.xib */; };
 		64DB75E11B8F0CA50043E4F2 /* StockChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64DB75E01B8F0CA50043E4F2 /* StockChatTests.m */; };
+		64F921161B9035AE0073575C /* NSSafeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F921151B9035AE0073575C /* NSSafeObject.m */; };
+		64F921191B9035C90073575C /* UIImage+Barrage.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F921181B9035C90073575C /* UIImage+Barrage.m */; };
 		ADACA378A1E617014878724A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A94937FE6A7C042D5F11137 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +45,10 @@
 		64DB75DA1B8F0CA50043E4F2 /* StockChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64DB75DF1B8F0CA50043E4F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64DB75E01B8F0CA50043E4F2 /* StockChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockChatTests.m; sourceTree = "<group>"; };
+		64F921141B9035AE0073575C /* NSSafeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSSafeObject.h; sourceTree = "<group>"; };
+		64F921151B9035AE0073575C /* NSSafeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSafeObject.m; sourceTree = "<group>"; };
+		64F921171B9035C90073575C /* UIImage+Barrage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Barrage.h"; sourceTree = "<group>"; };
+		64F921181B9035C90073575C /* UIImage+Barrage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Barrage.m"; sourceTree = "<group>"; };
 		6A697C2D68744BCB9582701C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +103,7 @@
 		64DB75C31B8F0CA50043E4F2 /* StockChat */ = {
 			isa = PBXGroup;
 			children = (
+				64F921121B90358F0073575C /* Barrage */,
 				64DB75C81B8F0CA50043E4F2 /* AppDelegate.h */,
 				64DB75C91B8F0CA50043E4F2 /* AppDelegate.m */,
 				64DB75CB1B8F0CA50043E4F2 /* ViewController.h */,
@@ -133,6 +140,25 @@
 				64DB75DF1B8F0CA50043E4F2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64F921121B90358F0073575C /* Barrage */ = {
+			isa = PBXGroup;
+			children = (
+				64F921171B9035C90073575C /* UIImage+Barrage.h */,
+				64F921181B9035C90073575C /* UIImage+Barrage.m */,
+				64F921131B9035AE0073575C /* SafeObject */,
+			);
+			name = Barrage;
+			sourceTree = "<group>";
+		};
+		64F921131B9035AE0073575C /* SafeObject */ = {
+			isa = PBXGroup;
+			children = (
+				64F921141B9035AE0073575C /* NSSafeObject.h */,
+				64F921151B9035AE0073575C /* NSSafeObject.m */,
+			);
+			path = SafeObject;
 			sourceTree = "<group>";
 		};
 		B48015B6748BB51B4E7B099E /* Frameworks */ = {
@@ -278,7 +304,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64F921161B9035AE0073575C /* NSSafeObject.m in Sources */,
 				64DB75CD1B8F0CA50043E4F2 /* ViewController.m in Sources */,
+				64F921191B9035C90073575C /* UIImage+Barrage.m in Sources */,
 				64DB75CA1B8F0CA50043E4F2 /* AppDelegate.m in Sources */,
 				64DB75C71B8F0CA50043E4F2 /* main.m in Sources */,
 			);
