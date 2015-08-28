@@ -1,0 +1,10 @@
+PODS:
+  - BarrageRenderer (1.2.0)
+
+DEPENDENCIES:
+  - BarrageRenderer (= 1.2.0)
+
+SPEC CHECKSUMS:
+  BarrageRenderer: ae75075391d1448c1e885a3760c0e3ff0f1e8e1b
+
+COCOAPODS: 0.38.2

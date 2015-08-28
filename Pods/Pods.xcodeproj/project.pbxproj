@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09991BAE828995CE9D644095A1C816F2 /* BarrageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC62C586F09A106D4B14869D0014F0 /* BarrageLoader.m */; };
+		0AEC7379579773291C633FF257D7BB97 /* BarrageFloatSpirit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0FBE2C95CE67F60627E053E1CCB336 /* BarrageFloatSpirit.m */; };
+		0EEB5620701D206C1C2647CEE006732E /* BarrageDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = FADBC028676067FB320AA179A49383B4 /* BarrageDescriptor.m */; };
+		0F957DDAC43B0C025E645A38C90A643A /* BarrageWalkImageSpirit.m in Sources */ = {isa = PBXBuildFile; fileRef = E24BC43DA2ED02823F97EF3C38BED79F /* BarrageWalkImageSpirit.m */; };
+		1258EA8F399C4101A1DEECD1D1CE2282 /* BarrageSpiritFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D240426AA4AD2C93D5B033880F8D41 /* BarrageSpiritFactory.m */; };
+		15B71720BCC0111342C7579D00E1B3CF /* BarrageWalkSpirit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D1EE0716CB758BA8B55419A160776BB /* BarrageWalkSpirit.h */; };
+		1C2C3F4465EA1EA827B0309720AFEBB3 /* BarrageClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F09E4D922143B1C5360193BB865EEBB /* BarrageClock.m */; };
+		1D29D00FF2EAFE5CE3241A5FD3DC63AB /* BarrageRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 878A67E2D9BA1C0FC893217CF53D38A3 /* BarrageRenderer.h */; };
+		20C8621EF240DC0F415163C380D0094F /* BarrageSpirit.m in Sources */ = {isa = PBXBuildFile; fileRef = CCCF8EE74BDA521B164D7F83D8BB5A4D /* BarrageSpirit.m */; };
+		2161D131650CD3788AC7478B30461E0C /* BarrageDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0747D7B0CC0533FA67869EAD7AB5354E /* BarrageDispatcher.m */; };
+		22CEBEAFFB486CBD3BA92421CE4C2408 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1572F6C72D69A9E31CE0F7A8D268DBA6 /* Foundation.framework */; };
+		30E640B9D4CE61A889A8FC3E8CBB109B /* BarrageDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AAA392F4DEF0F6A55AA23098B543CD1 /* BarrageDescriptor.h */; };
+		410151482CE0F79C686145D2929FBF40 /* BarrageCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 8096D02F3BF8105839F17F5EE74DF4FA /* BarrageCanvas.m */; };
+		4F90EF787652A35E2C1BD9521600A821 /* BarrageWalkTextSpirit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E16CDB8E15FBAA29416AEA5EE812005 /* BarrageWalkTextSpirit.m */; };
+		5608EE90AE7DC61064EEF3AB641150E1 /* BarrageWalkTextSpirit.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B7C6C3C1A9778FDADDA53E01B8A291 /* BarrageWalkTextSpirit.h */; };
+		6DA6D991123C4979E1C2BAE72F7FB44C /* BarrageFloatTextSpirit.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F09B6B4C8B47289721F1F4E6C9A21E /* BarrageFloatTextSpirit.m */; };
+		74A6F055DF19F21597992EB502417827 /* BarrageSpirit.h in Headers */ = {isa = PBXBuildFile; fileRef = 72DD24F4FB0FF48812A52BCF9F24CE5B /* BarrageSpirit.h */; };
+		777083A77226A14018F29831CC7D2A43 /* BarrageLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DD505F04D2A3A82C3CAE560A4D00B83 /* BarrageLoader.h */; };
+		7E7DC7586C62929CEB91E1352302F423 /* BarrageRenderer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD5BB24817F0B9E53E933036BDA46B1 /* BarrageRenderer-dummy.m */; };
+		924FA8ABA4EB12604C506D9D43BB880F /* BarrageRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = C41342428A2BD4E37EB34EA18CECD251 /* BarrageRenderer.m */; };
+		93C52CA775B8E6603E4A6801480CBDA9 /* BarrageHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = CA1A7BF9884668A48F5E9618264C5B9E /* BarrageHeader.h */; };
+		9DFFED4D845847B985B76B2FB429222E /* BarrageFloatImageSpirit.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C59557CD6EC33387B733025B24494D /* BarrageFloatImageSpirit.h */; };
+		A12CB8B9BDAB4073DB149E24F03AC63C /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E88B4F469E39394B96F7CCAEEE2E240E /* Pods-dummy.m */; };
+		A133FBFFDD6AED0FF30C1C482A115D51 /* BarrageClock.h in Headers */ = {isa = PBXBuildFile; fileRef = FF9E32386353C99FD549EC718AEEC3E7 /* BarrageClock.h */; };
+		A7B4409F78F21497D2320B1DC929C8BD /* BarrageCanvas.h in Headers */ = {isa = PBXBuildFile; fileRef = EE89B0DD61D9E6AD9C4114ABE22D5406 /* BarrageCanvas.h */; };
+		A8329AD7DC408519C15385D1771579DC /* BarrageFloatImageSpirit.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BDB88DAC3B1F0B9B5ABE7F3454DCD2 /* BarrageFloatImageSpirit.m */; };
+		A8DFA34442A49FFB7750D874170C786F /* BarrageSpiritUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = DEBF2B44A6BEFB1F5CF27154B04D0E59 /* BarrageSpiritUtility.h */; };
+		ABEA164AD9B05603D64AB8EBF64F69E2 /* BarrageFloatSpirit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D977E318A32A64EBE3050E448C671D5 /* BarrageFloatSpirit.h */; };
+		B45C2488D2E42EAA5DBA5CE7F5BB9B7F /* BarrageWalkImageSpirit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2C1F618D3793D8B16F9EA836C1EBB7 /* BarrageWalkImageSpirit.h */; };
+		BB6BF9D39350E94322424D0C9E7AEF9E /* BarrageFloatTextSpirit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DB7B16B1B161FDDEC960095355B3D00 /* BarrageFloatTextSpirit.h */; };
+		C112E26F217DB63401008699F49134C8 /* BarrageSpiritFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = A6986A64BD64817E6003A38F98EC2B76 /* BarrageSpiritFactory.h */; };
+		CC68D8A371549445D4FD4790F35CCF17 /* BarrageSpiritUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = BC12AF777F5A8BF852DE31551051F7FF /* BarrageSpiritUtility.m */; };
+		E2083A28E7A2BD8785B4AF6151B16B7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1572F6C72D69A9E31CE0F7A8D268DBA6 /* Foundation.framework */; };
+		F1ED5EF06114198AB6B7EE49E0DDF842 /* BarrageDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 72D6ADC9324A074B0C8BCFA8DE6DE163 /* BarrageDispatcher.h */; };
+		FC4823C4BF49B261CE8F866B163E0320 /* BarrageWalkSpirit.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E041F43BC6C5F4E0C78C4DE867CD60 /* BarrageWalkSpirit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B83CC8C1C13650897AD883E946459BD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CCB38015974F146C3426F435CEA0358;
+			remoteInfo = BarrageRenderer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0747D7B0CC0533FA67869EAD7AB5354E /* BarrageDispatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarrageDispatcher.m; path = BarrageRenderer/BarrageEngine/BarrageDispatcher.m; sourceTree = "<group>"; };
+		07B7C6C3C1A9778FDADDA53E01B8A291 /* BarrageWalkTextSpirit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarrageWalkTextSpirit.h; path = BarrageRenderer/BarrageSpirit/BarrageWalkTextSpirit.h; sourceTree = "<group>"; };
+		07F09B6B4C8B47289721F1F4E6C9A21E /* BarrageFloatTextSpirit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarrageFloatTextSpirit.m; path = BarrageRenderer/BarrageSpirit/BarrageFloatTextSpirit.m; sourceTree = "<group>"; };
+		0AA464477E6F569B0FA00FCE1A0E18DB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		0B2C1F618D3793D8B16F9EA836C1EBB7 /* BarrageWalkImageSpirit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarrageWalkImageSpirit.h; path = BarrageRenderer/BarrageSpirit/BarrageWalkImageSpirit.h; sourceTree = "<group>"; };
+		1572F6C72D69A9E31CE0F7A8D268DBA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D977E318A32A64EBE3050E448C671D5 /* BarrageFloatSpirit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarrageFloatSpirit.h; path = BarrageRenderer/BarrageSpirit/BarrageFloatSpirit.h; sourceTree = "<group>"; };
+		1FBC62C586F09A106D4B14869D0014F0 /* BarrageLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarrageLoader.m; path = BarrageRenderer/BarrageLoader/BarrageLoader.m; sourceTree = "<group>"; };
+		3DF7AE018EB8171791C8E6EF8B355341 /* BarrageRenderer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BarrageRenderer-prefix.pch"; sourceTree = "<group>"; };
+		44C59557CD6EC33387B733025B24494D /* BarrageFloatImageSpirit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarrageFloatImageSpirit.h; path = BarrageRenderer/BarrageSpirit/BarrageFloatImageSpirit.h; sourceTree = "<group>"; };
+		57E041F43BC6C5F4E0C78C4DE867CD60 /* BarrageWalkSpirit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarrageWalkSpirit.m; path = BarrageRenderer/BarrageSpirit/BarrageWalkSpirit.m; sourceTree = "<group>"; };
+		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		667120B9FEF39451A8B20C4CBE5BCA53 /* BarrageRenderer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BarrageRenderer.xcconfig; sourceTree = "<group>"; };
+		6D1EE0716CB758BA8B55419A160776BB /* BarrageWalkSpirit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarrageWalkSpirit.h; path = BarrageRenderer/BarrageSpirit/BarrageWalkSpirit.h; sourceTree = "<group>"; };
+		72D6ADC9324A074B0C8BCFA8DE6DE163 /* BarrageDispatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarrageDispatcher.h; path = BarrageRenderer/BarrageEngine/BarrageDispatcher.h; sourceTree = "<group>"; };
+		72DD24F4FB0FF48812A52BCF9F24CE5B /* BarrageSpirit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarrageSpirit.h; path = BarrageRenderer/BarrageSpirit/BarrageSpirit.h; sourceTree = "<group>"; };
+		7AAA392F4DEF0F6A55AA23098B543CD1 /* BarrageDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarrageDescriptor.h; path = BarrageRenderer/BarrageEngine/BarrageDescriptor.h; sourceTree = "<group>"; };
+		7C0FBE2C95CE67F60627E053E1CCB336 /* BarrageFloatSpirit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarrageFloatSpirit.m; path = BarrageRenderer/BarrageSpirit/BarrageFloatSpirit.m; sourceTree = "<group>"; };
+		7DB7B16B1B161FDDEC960095355B3D00 /* BarrageFloatTextSpirit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarrageFloatTextSpirit.h; path = BarrageRenderer/BarrageSpirit/BarrageFloatTextSpirit.h; sourceTree = "<group>"; };
+		7F09E4D922143B1C5360193BB865EEBB /* BarrageClock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarrageClock.m; path = BarrageRenderer/BarrageEngine/BarrageClock.m; sourceTree = "<group>"; };
+		8096D02F3BF8105839F17F5EE74DF4FA /* BarrageCanvas.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarrageCanvas.m; path = BarrageRenderer/BarrageEngine/BarrageCanvas.m; sourceTree = "<group>"; };
+		86BAEEBAA5C04BF8B7C07550CF881B96 /* BarrageRenderer-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "BarrageRenderer-Private.xcconfig"; sourceTree = "<group>"; };
+		878A67E2D9BA1C0FC893217CF53D38A3 /* BarrageRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarrageRenderer.h; path = BarrageRenderer/BarrageEngine/BarrageRenderer.h; sourceTree = "<group>"; };
+		8DD505F04D2A3A82C3CAE560A4D00B83 /* BarrageLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarrageLoader.h; path = BarrageRenderer/BarrageLoader/BarrageLoader.h; sourceTree = "<group>"; };
+		8E16CDB8E15FBAA29416AEA5EE812005 /* BarrageWalkTextSpirit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarrageWalkTextSpirit.m; path = BarrageRenderer/BarrageSpirit/BarrageWalkTextSpirit.m; sourceTree = "<group>"; };
+		A6986A64BD64817E6003A38F98EC2B76 /* BarrageSpiritFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarrageSpiritFactory.h; path = BarrageRenderer/BarrageEngine/BarrageSpiritFactory.h; sourceTree = "<group>"; };
+		ADD5BB24817F0B9E53E933036BDA46B1 /* BarrageRenderer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BarrageRenderer-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC12AF777F5A8BF852DE31551051F7FF /* BarrageSpiritUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarrageSpiritUtility.m; path = BarrageRenderer/BarrageSpirit/BarrageSpiritUtility.m; sourceTree = "<group>"; };
+		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		C41342428A2BD4E37EB34EA18CECD251 /* BarrageRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarrageRenderer.m; path = BarrageRenderer/BarrageEngine/BarrageRenderer.m; sourceTree = "<group>"; };
+		C57476592D9E8CDB2301C899F4CBAC7F /* libBarrageRenderer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBarrageRenderer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA1A7BF9884668A48F5E9618264C5B9E /* BarrageHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarrageHeader.h; path = BarrageRenderer/BarrageHeader.h; sourceTree = "<group>"; };
+		CCCF8EE74BDA521B164D7F83D8BB5A4D /* BarrageSpirit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarrageSpirit.m; path = BarrageRenderer/BarrageSpirit/BarrageSpirit.m; sourceTree = "<group>"; };
+		D1D240426AA4AD2C93D5B033880F8D41 /* BarrageSpiritFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarrageSpiritFactory.m; path = BarrageRenderer/BarrageEngine/BarrageSpiritFactory.m; sourceTree = "<group>"; };
+		D9E193BA65409276174D7059A9671011 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		DEBF2B44A6BEFB1F5CF27154B04D0E59 /* BarrageSpiritUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarrageSpiritUtility.h; path = BarrageRenderer/BarrageSpirit/BarrageSpiritUtility.h; sourceTree = "<group>"; };
+		E24BC43DA2ED02823F97EF3C38BED79F /* BarrageWalkImageSpirit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarrageWalkImageSpirit.m; path = BarrageRenderer/BarrageSpirit/BarrageWalkImageSpirit.m; sourceTree = "<group>"; };
+		E7BDB88DAC3B1F0B9B5ABE7F3454DCD2 /* BarrageFloatImageSpirit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarrageFloatImageSpirit.m; path = BarrageRenderer/BarrageSpirit/BarrageFloatImageSpirit.m; sourceTree = "<group>"; };
+		E88B4F469E39394B96F7CCAEEE2E240E /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		EE89B0DD61D9E6AD9C4114ABE22D5406 /* BarrageCanvas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarrageCanvas.h; path = BarrageRenderer/BarrageEngine/BarrageCanvas.h; sourceTree = "<group>"; };
+		F050C051C714A3A81E483ED29AEC358E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADBC028676067FB320AA179A49383B4 /* BarrageDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BarrageDescriptor.m; path = BarrageRenderer/BarrageEngine/BarrageDescriptor.m; sourceTree = "<group>"; };
+		FF9E32386353C99FD549EC718AEEC3E7 /* BarrageClock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BarrageClock.h; path = BarrageRenderer/BarrageEngine/BarrageClock.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04041923190F152300311BA174C36F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CEBEAFFB486CBD3BA92421CE4C2408 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB15964BD68231822A596302A6D51CCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2083A28E7A2BD8785B4AF6151B16B7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1572F6C72D69A9E31CE0F7A8D268DBA6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F9159327EF49F48E25C521C404830B2B /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				E88B4F469E39394B96F7CCAEEE2E240E /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				0AA464477E6F569B0FA00FCE1A0E18DB /* Pods.debug.xcconfig */,
+				D9E193BA65409276174D7059A9671011 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C97A9D5DE0E00820E21FAA441A539A8B /* BarrageRenderer */ = {
+			isa = PBXGroup;
+			children = (
+				EE89B0DD61D9E6AD9C4114ABE22D5406 /* BarrageCanvas.h */,
+				8096D02F3BF8105839F17F5EE74DF4FA /* BarrageCanvas.m */,
+				FF9E32386353C99FD549EC718AEEC3E7 /* BarrageClock.h */,
+				7F09E4D922143B1C5360193BB865EEBB /* BarrageClock.m */,
+				7AAA392F4DEF0F6A55AA23098B543CD1 /* BarrageDescriptor.h */,
+				FADBC028676067FB320AA179A49383B4 /* BarrageDescriptor.m */,
+				72D6ADC9324A074B0C8BCFA8DE6DE163 /* BarrageDispatcher.h */,
+				0747D7B0CC0533FA67869EAD7AB5354E /* BarrageDispatcher.m */,
+				44C59557CD6EC33387B733025B24494D /* BarrageFloatImageSpirit.h */,
+				E7BDB88DAC3B1F0B9B5ABE7F3454DCD2 /* BarrageFloatImageSpirit.m */,
+				1D977E318A32A64EBE3050E448C671D5 /* BarrageFloatSpirit.h */,
+				7C0FBE2C95CE67F60627E053E1CCB336 /* BarrageFloatSpirit.m */,
+				7DB7B16B1B161FDDEC960095355B3D00 /* BarrageFloatTextSpirit.h */,
+				07F09B6B4C8B47289721F1F4E6C9A21E /* BarrageFloatTextSpirit.m */,
+				CA1A7BF9884668A48F5E9618264C5B9E /* BarrageHeader.h */,
+				8DD505F04D2A3A82C3CAE560A4D00B83 /* BarrageLoader.h */,
+				1FBC62C586F09A106D4B14869D0014F0 /* BarrageLoader.m */,
+				878A67E2D9BA1C0FC893217CF53D38A3 /* BarrageRenderer.h */,
+				C41342428A2BD4E37EB34EA18CECD251 /* BarrageRenderer.m */,
+				72DD24F4FB0FF48812A52BCF9F24CE5B /* BarrageSpirit.h */,
+				CCCF8EE74BDA521B164D7F83D8BB5A4D /* BarrageSpirit.m */,
+				A6986A64BD64817E6003A38F98EC2B76 /* BarrageSpiritFactory.h */,
+				D1D240426AA4AD2C93D5B033880F8D41 /* BarrageSpiritFactory.m */,
+				DEBF2B44A6BEFB1F5CF27154B04D0E59 /* BarrageSpiritUtility.h */,
+				BC12AF777F5A8BF852DE31551051F7FF /* BarrageSpiritUtility.m */,
+				0B2C1F618D3793D8B16F9EA836C1EBB7 /* BarrageWalkImageSpirit.h */,
+				E24BC43DA2ED02823F97EF3C38BED79F /* BarrageWalkImageSpirit.m */,
+				6D1EE0716CB758BA8B55419A160776BB /* BarrageWalkSpirit.h */,
+				57E041F43BC6C5F4E0C78C4DE867CD60 /* BarrageWalkSpirit.m */,
+				07B7C6C3C1A9778FDADDA53E01B8A291 /* BarrageWalkTextSpirit.h */,
+				8E16CDB8E15FBAA29416AEA5EE812005 /* BarrageWalkTextSpirit.m */,
+				F4C7CE0F1ED317E702DBE8F1EB2F45D7 /* Support Files */,
+			);
+			path = BarrageRenderer;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C57476592D9E8CDB2301C899F4CBAC7F /* libBarrageRenderer.a */,
+				F050C051C714A3A81E483ED29AEC358E /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F4C7CE0F1ED317E702DBE8F1EB2F45D7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				667120B9FEF39451A8B20C4CBE5BCA53 /* BarrageRenderer.xcconfig */,
+				86BAEEBAA5C04BF8B7C07550CF881B96 /* BarrageRenderer-Private.xcconfig */,
+				ADD5BB24817F0B9E53E933036BDA46B1 /* BarrageRenderer-dummy.m */,
+				3DF7AE018EB8171791C8E6EF8B355341 /* BarrageRenderer-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BarrageRenderer";
+			sourceTree = "<group>";
+		};
+		F9159327EF49F48E25C521C404830B2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C97A9D5DE0E00820E21FAA441A539A8B /* BarrageRenderer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FE9ED0D626F2DA4514ED97A7B582544F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B4409F78F21497D2320B1DC929C8BD /* BarrageCanvas.h in Headers */,
+				A133FBFFDD6AED0FF30C1C482A115D51 /* BarrageClock.h in Headers */,
+				30E640B9D4CE61A889A8FC3E8CBB109B /* BarrageDescriptor.h in Headers */,
+				F1ED5EF06114198AB6B7EE49E0DDF842 /* BarrageDispatcher.h in Headers */,
+				9DFFED4D845847B985B76B2FB429222E /* BarrageFloatImageSpirit.h in Headers */,
+				ABEA164AD9B05603D64AB8EBF64F69E2 /* BarrageFloatSpirit.h in Headers */,
+				BB6BF9D39350E94322424D0C9E7AEF9E /* BarrageFloatTextSpirit.h in Headers */,
+				93C52CA775B8E6603E4A6801480CBDA9 /* BarrageHeader.h in Headers */,
+				777083A77226A14018F29831CC7D2A43 /* BarrageLoader.h in Headers */,
+				1D29D00FF2EAFE5CE3241A5FD3DC63AB /* BarrageRenderer.h in Headers */,
+				74A6F055DF19F21597992EB502417827 /* BarrageSpirit.h in Headers */,
+				C112E26F217DB63401008699F49134C8 /* BarrageSpiritFactory.h in Headers */,
+				A8DFA34442A49FFB7750D874170C786F /* BarrageSpiritUtility.h in Headers */,
+				B45C2488D2E42EAA5DBA5CE7F5BB9B7F /* BarrageWalkImageSpirit.h in Headers */,
+				15B71720BCC0111342C7579D00E1B3CF /* BarrageWalkSpirit.h in Headers */,
+				5608EE90AE7DC61064EEF3AB641150E1 /* BarrageWalkTextSpirit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1CCB38015974F146C3426F435CEA0358 /* BarrageRenderer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98BD3FC7E78BBF63B9E596FAC5F87DE0 /* Build configuration list for PBXNativeTarget "BarrageRenderer" */;
+			buildPhases = (
+				E59B0F1A21A665C40282CB20E91653A6 /* Sources */,
+				FB15964BD68231822A596302A6D51CCA /* Frameworks */,
+				FE9ED0D626F2DA4514ED97A7B582544F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarrageRenderer;
+			productName = BarrageRenderer;
+			productReference = C57476592D9E8CDB2301C899F4CBAC7F /* libBarrageRenderer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E83E8D866ECF24A198D11BA996BA5E45 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919C452002230F24A270D9CCF64089A0 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				C4795B9FF3B640D6A3E588719F810735 /* Sources */,
+				04041923190F152300311BA174C36F9E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				683E4C96C776F1B5B1175AC30F2ABFF9 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = F050C051C714A3A81E483ED29AEC358E /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CCB38015974F146C3426F435CEA0358 /* BarrageRenderer */,
+				E83E8D866ECF24A198D11BA996BA5E45 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4795B9FF3B640D6A3E588719F810735 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12CB8B9BDAB4073DB149E24F03AC63C /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59B0F1A21A665C40282CB20E91653A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410151482CE0F79C686145D2929FBF40 /* BarrageCanvas.m in Sources */,
+				1C2C3F4465EA1EA827B0309720AFEBB3 /* BarrageClock.m in Sources */,
+				0EEB5620701D206C1C2647CEE006732E /* BarrageDescriptor.m in Sources */,
+				2161D131650CD3788AC7478B30461E0C /* BarrageDispatcher.m in Sources */,
+				A8329AD7DC408519C15385D1771579DC /* BarrageFloatImageSpirit.m in Sources */,
+				0AEC7379579773291C633FF257D7BB97 /* BarrageFloatSpirit.m in Sources */,
+				6DA6D991123C4979E1C2BAE72F7FB44C /* BarrageFloatTextSpirit.m in Sources */,
+				09991BAE828995CE9D644095A1C816F2 /* BarrageLoader.m in Sources */,
+				7E7DC7586C62929CEB91E1352302F423 /* BarrageRenderer-dummy.m in Sources */,
+				924FA8ABA4EB12604C506D9D43BB880F /* BarrageRenderer.m in Sources */,
+				20C8621EF240DC0F415163C380D0094F /* BarrageSpirit.m in Sources */,
+				1258EA8F399C4101A1DEECD1D1CE2282 /* BarrageSpiritFactory.m in Sources */,
+				CC68D8A371549445D4FD4790F35CCF17 /* BarrageSpiritUtility.m in Sources */,
+				0F957DDAC43B0C025E645A38C90A643A /* BarrageWalkImageSpirit.m in Sources */,
+				FC4823C4BF49B261CE8F866B163E0320 /* BarrageWalkSpirit.m in Sources */,
+				4F90EF787652A35E2C1BD9521600A821 /* BarrageWalkTextSpirit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		683E4C96C776F1B5B1175AC30F2ABFF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BarrageRenderer;
+			target = 1CCB38015974F146C3426F435CEA0358 /* BarrageRenderer */;
+			targetProxy = B83CC8C1C13650897AD883E946459BD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13C302085EBA3828C3F0E525D88C94FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86BAEEBAA5C04BF8B7C07550CF881B96 /* BarrageRenderer-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BarrageRenderer/BarrageRenderer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2CD145C8EDC5588B440CE76BE6DE514E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86BAEEBAA5C04BF8B7C07550CF881B96 /* BarrageRenderer-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BarrageRenderer/BarrageRenderer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4E4C6D2057CFCA919AE0781B42A0C019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E193BA65409276174D7059A9671011 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		511103F7F15A7E8F83B268EA03462CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FC5CE35425D759E7289211F01F772FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AA464477E6F569B0FA00FCE1A0E18DB /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */,
+				511103F7F15A7E8F83B268EA03462CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		919C452002230F24A270D9CCF64089A0 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5CE35425D759E7289211F01F772FB4 /* Debug */,
+				4E4C6D2057CFCA919AE0781B42A0C019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98BD3FC7E78BBF63B9E596FAC5F87DE0 /* Build configuration list for PBXNativeTarget "BarrageRenderer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD145C8EDC5588B440CE76BE6DE514E /* Debug */,
+				13C302085EBA3828C3F0E525D88C94FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

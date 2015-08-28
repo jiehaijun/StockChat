@@ -7,15 +7,25 @@
 //
 
 #import "ViewController.h"
+#import "BarrageHeader.h"
 
-@interface ViewController ()
+@interface ViewController (){
+    BarrageRenderer *render;
+}
 
 @end
 
 @implementation ViewController
+@synthesize webView;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSURL* url = [NSURL URLWithString:@"http://m.stockstar.com"];//创建URL
+    NSURLRequest* request = [NSURLRequest requestWithURL:url];//创建NSURLRequest
+    [webView loadRequest:request];//加载
+    
+    render = [[BarrageRenderer alloc] init];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
